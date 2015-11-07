@@ -4,14 +4,14 @@
 <head>
 	<meta charset="utf-8">
 	<title>Free FakeMailer</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 
 <body>
 	<div class="well bs-component">
 		<h1 id="forms">Fake Mailer</h1>
 		</br>
-		<form class="form-horizontal" method="post" action="function.php">
+		<form class="form-horizontal" method="post" action="functions/function.php">
 			<fieldset>
 				<legend>Sender : </legend>
 				<div class="form-group">
