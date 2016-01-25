@@ -12,8 +12,8 @@ if(isset($_POST) && isset($_POST['name']) && isset($_POST['email']) && isset($_P
 		if (mail($destinataire,$sujet,$message,$entete)){
 			?>
 			<script>
-			alert('Votre message a bien été envoyé.');
-			location.reload();
+				alert('Votre message a bien été envoyé.');
+				location.reload();
 			</script>
 			<?php
 		} else {
